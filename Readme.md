@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Женя Романовская](https://up.htmlacademy.ru/htmlcss/30/user/1640727).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
 
