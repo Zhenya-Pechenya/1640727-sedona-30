@@ -1,0 +1,24 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/*Variables*/
+:root {
+  --basic-black: #000000;
+  --basic-blue: #81B3D2;
+  --basic-light-grey: #eeeeee;
+  --basic-icon-grey: #cacaca;
+  --basic-grey: #f2f2f2;
+  --basic-white: #ffffff;
+  --basic-brown: #766357;
+  --basic-dark: #333333;
+ /*button*/ 
+  --hover-brown: #604e43;  
+  --push-brown: #503e33;
+  --hover-blue: #669ec0;
+  --push-blue: #5496bd;
+  --filter-button: #ababab;
+  --checkbox-block: #6a6a6a;
+  --icon-calendar: #a9a9a9;
+  --icon-website: #bdbbbc; 
+}

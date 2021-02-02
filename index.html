@@ -1,102 +1,106 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/32.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/icons/180.png">
     <link rel="manifest" href="manifest.webmainfest">
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
+  <body class="page-body">
+    <header class="header"> <!--состояние кнопок, отступы, жирность шрифта-->
+      <nav class="nav">
+        <ul class="nav-items">
           <li><a href="blank.html">Информация</a></li>
           <li><a href="blank.html">Фото и видео</a></li>
           <li><a href="blank.html">Карта штата</a></li>
           <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
-      <a><img src="img/logo/logonav.svg" width="138" height="70" alt="Логотип"></a>
+      <a class="header-logo"><img src="img/logo/logonav.svg" width="138" height="70" alt="Логотип"></a>
     </header>
-    <main>
-      <section>        <!--лого, фоновая картинка-->
-        <img src="img/index/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону">
+    <main class="container"> <!---центрирование-->
+      <section class="background-index"> <!--подключение фоновой картинки-->
+        <img class src="img/index/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону">
       </section>
-      <section>        <!---описание городка-->
-        <h1>Седона - небольшой городок в Аризоне,<br>
+      <section>
+        <h1 class="title-black">Седона - небольшой городок в Аризоне,<br>
            заслуживающий большего!
         </h1>
         <p>Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</p>
       </section>
-      <section>         <!-- список причин -->
+      <section>
         <h2>Преимущества</h2>
-        <ul>
-          <li>
-            <h3>Настоящий городок</h3>
-            <span>— №1 — </span>>
+        <ul class="features-list.1"><!--центрирование текста и отступы.-->
+          <li> 
+            <h3 class="title-white">Настоящий городок</h3> <!--гдето здесь прописать класс для голубого квадрата-->
+            <span>— №1 — </span>> <!--что делать со спаном?-->
             <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="img/index/image.jpg" width="800" height="256" alt="Изображение отеля">              
-            <ul>
-              <li>
-                <h4>Жильё</h4>
+            <img class="img-item-1" src="img/index/image.jpg" width="800" height="256" alt="Изображение отеля"> <!---размещение картинки у правого края-->             
+            <ul class="features-list.2"> <!--центрирование текста и отступы.-->
+              <li class="list-item-house"> <!--подключение изображения-->
+                <h4 class="title-black">Жильё</h4>
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-              <li>
-                <h4>Еда</h4>
+              <li class="list-item-food"> <!--подключение изображения-->
+                <h4 class="title-black">Еда</h4>
                 <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li>
-                <h4>Сувениры</h4>
+              <li class="list-item-gift"> <!--подключение изображения-->
+                <h4 class="title-black">Сувениры</h4>
                 <p>Не только китайского, но и местного производства!</p>
               </li>
             </ul> 
           </li>   
           <li>
-            <img src="img/index/image2.jpg" width="800" height="256" alt="Фотография каньона">            
-            <h3>Там есть мост дьявола</h3>
+            <img class="img-item-2" src="img/index/image2.jpg" width="800" height="256" alt="Фотография каньона"> <!--размещение картинки у левого края-->           
+            <h3 class="title-white">Там есть мост дьявола</h3> <!--фоновый голубой квадрат-->
             <span> — №2 — </span>>
             <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>        
-          <li>
-            <h3>Небольшая площадь</h3>
+          <li class="list-item"> <!--размещение всех list-item на сером фоне-->
+            <h3 class="title-black">Небольшая площадь</h3>
             <span>— №3 —</span>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li>
-            <h3>Красивая дорога</h3>
+          <li class="list-item">
+            <h3 class="title-black">Красивая дорога</h3>
             <span>— №4 —</span>
             <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
           </li>
-          <li>
-            <h3>Мало туристов</h3>
+          <li class="list-item">
+            <h3 class="title-black">Мало туристов</h3>
             <span> — №5 —</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="form-search"> <!--белый фон, размеры блока-->
         <h2>Форма</h2>         
-        <h3>Заинтересовались?</h3>
+        <h3 class="form-title">Заинтересовались?</h3> <!--жирность и цвет текста-->
         <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a href="blank.html">Поиск гостиницы в Седоне</a>
+        <a  class="button" href="blank.html">Поиск гостиницы в Седоне</a> <!--кнопка открывающая форму, её состояние-->
       </section>
-      <div><img src="img/map.jpg" width="1199" height="594" alt="Карта"></div>
+      <div class="map"><img src="img/map.jpg" width="1199" height="594" alt="Карта"></div> <!--подключение карты(пока не трогать)-->
     </main>
-    <footer>
-      <div>
+    <footer class="footer"> <!--высота, ширина, прозрачность и цвет-->
+      <div class="contacts"> <!--расположение контактов-->
         <b>#VISITSEDONA></b>
         <a href="tel:+74956660166"> Тел:+7(495) 666-01-66 </a>
       </div>
-      <div>
+      <div class="icons"> <!--фоновые голубые квадраты, расположение-->
         <ul>
-            <li><a href="blank.html"></a></li>
-            <li><a href="blank.html"></a></li>
-            <li><a href="blank.html"></a></li>
+            <li class="icon-twtter"><a href="blank.html"></a></li> <!--подключение изображения, состояние кнопок-->
+            <li class="icon-facebook"><a href="blank.html"></a></li>
+            <li class="icon-youtube"><a href="blank.html"></a></li>
         </ul>
       </div>
-      <div>
+      <div class="website"> <!--расположение-->
+        <p>Website by</p>
         <a href="https://htmlacademy.ru/intensive/htmlcss"> <img src="img/logo/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy"></a>  
       </div>
     </footer>
