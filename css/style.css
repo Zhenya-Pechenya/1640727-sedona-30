@@ -1,6 +1,6 @@
 /*Fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 
 /*Variables*/
 :root {
@@ -21,4 +21,127 @@
   --checkbox-block: #6a6a6a;
   --icon-calendar: #a9a9a9;
   --icon-website: #bdbbbc; 
+}
+
+/*Global*/
+.page-body {
+    font-family: "PT Sans", "Arial", "sans-serif";
+    color:#000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header{
+    background-color: var(--basic-white);
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--basic-black);
+    line-height: 26px;
+}
+
+.background-index {
+    background-image: url("../img/index/backgroundindex.jpg");
+}
+
+.title-primary {
+    font-size: 21px;
+    line-height: 26px;
+
+}
+
+
+.feature-list-item {
+    align-items: center;
+    text-align: center;
+
+}
+
+.list-item-house {
+    background-image: url("../img/index/icon-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.list-item-food {
+    background-image: url("../img/index/icon-2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.list-item-gift {
+    background-image: url("../img/index/icon-3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.feature-title {
+    font-size: 21px;
+}
+
+.advantages-item-picture {
+    background-color: var(--basic-blue);
+    width: 400px;
+    height: 256px;
+    color: var(--basic-white);
+}
+
+
+.button-form {
+    background-color: var(--basic-brown);
+    color: var(--basic-white);
+    width: 568px;
+    height: 86px;
+    text-decoration: none;
+}
+
+.form-search: {
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.footer: {
+    background-color: rgba (255, 255, 255, 0.9)
+}
+
+
+.social-link {
+    background-color: var(--basic-blue);
+    height: 48px;
+    width: 46px;
+    display: flex;
+}
+
+.social-item-twtter {
+    background-image: url("../img/twitter.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.social-item-facebook {
+    background-image: url("../img/facebook.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.social-item-youtube {
+    background-image: url("../img/youtube.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.contacts {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-decoration: none;
+
 }
