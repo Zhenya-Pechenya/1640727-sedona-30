@@ -13,10 +13,10 @@
   --basic-brown: #766357;
   --basic-dark: #333333;
  /*button*/ 
-  --hover-brown: #604e43;  
-  --push-brown: #503e33;
-  --hover-blue: #669ec0;
-  --push-blue: #5496bd;
+  --focus-brown: #604e43;  
+  --hover-brown: #503e33;
+  --focus-blue: #669ec0;
+  --hover-blue: #5496bd;
   --filter-button: #ababab;
   --checkbox-block: #6a6a6a;
   --icon-calendar: #a9a9a9;
@@ -30,11 +30,20 @@
     text-transform: uppercase;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
+    background-color: var(--basic-white);
 }
+
+
 
 .header{
     background-color: var(--basic-white);
 }
+
+.list {
+    list-style: none;
+}
+
 
 .nav-item {
     text-decoration: none;
@@ -51,6 +60,10 @@
     font-size: 21px;
     line-height: 26px;
 
+}
+
+.advantages-list {
+    text-align: center;
 }
 
 
@@ -99,12 +112,24 @@
     text-decoration: none;
 }
 
-.form-search: {
+
+.button-form :hover {
+    background-color: var(--focus-brown);
+
+}
+
+.button-form :focus {
+    background-color: var(--hover-brown);
+}
+
+
+.form-search {
     font-size: 30px;
     line-height: 24px;
 }
 
-.footer: {
+
+.footer {
     background-color: rgba (255, 255, 255, 0.9)
 }
 
@@ -137,11 +162,15 @@
 
 }
 
-
 .contacts {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
-    text-decoration: none;
-
 }
+
+
+.contacts a {
+    text-decoration: none;
+    color: var(--basic-black);
+}
+
