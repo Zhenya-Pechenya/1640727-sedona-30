@@ -25,20 +25,15 @@
 
 /*Global*/
 .page-body {
-    font-family: "PT Sans", "Arial", "sans-serif";
-    color:#000000;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: var(--basic-dark);
     text-transform: uppercase;
     font-size: 14px;
     line-height: 21px;
-    font-weight: 700;
     background-color: var(--basic-white);
 }
 
 
-
-.header{
-    background-color: var(--basic-white);
-}
 
 .list {
     list-style: none;
@@ -50,26 +45,34 @@
     font-weight: bold;
     color: var(--basic-black);
     line-height: 26px;
+    font-weight: bold;
 }
+
+/*Main-index*/
 
 .background-index {
     background-image: url("../img/index/backgroundindex.jpg");
 }
 
-.title-primary {
+.title-primary, .found, .hotel-names {
     font-size: 21px;
     line-height: 26px;
+    color: var(--basic-black);
 
 }
+
+
+/*Advantages*/
 
 .advantages-list {
     text-align: center;
 }
 
 
-.feature-list-item {
+.feature-item {
     align-items: center;
     text-align: center;
+    color: var(--basic-dark)
 }
 
 .advantages-item-gray {
@@ -77,19 +80,19 @@
 
 }
 
-.list-item-house {
+.feature-item-house {
     background-image: url("../img/index/icon-1.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.list-item-food {
+.feature-item-food {
     background-image: url("../img/index/icon-2.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.list-item-gift {
+.feature-item-gift {
     background-image: url("../img/index/icon-3.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -98,14 +101,19 @@
 
 .feature-title {
     font-size: 21px;
+    color: var(--basic-black);
 }
 
 .advantages-item-picture {
     background-color: var(--basic-blue);
-    width: 400px;
-    height: 256px;
     color: var(--basic-white);
 }
+
+.advantages-item-picture h3 {
+    font-size: 21px;
+}
+
+/*Form*/
 
 
 .button-form {
@@ -130,7 +138,39 @@
 .form-search {
     font-size: 30px;
     line-height: 24px;
+    color: var(--basic-black);
 }
+
+/*Main-catalog*/
+
+.background-catalog {
+    background-image: url(../img/catalog/backgroundcatalog.jpg);
+}
+
+.legend {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkbox-form {
+    display: flex;
+    color: var(--basic-white)
+
+}
+ .found {
+    font-size: 21px;
+    line-height: 26px;
+ }
+
+ .sorting {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--basic-black);
+ }
+
+/*Footer*/
 
 
 .footer {
@@ -145,7 +185,7 @@
     display: flex;
 }
 
-.social-item-twtter {
+.social-item-twitter {
     background-image: url("../img/twitter.svg");
     background-position: center;
     background-repeat: no-repeat;

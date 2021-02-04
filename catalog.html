@@ -3,33 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/32.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/icons/180.png">
     <link rel="manifest" href="manifest.webmainfest">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
   </head>
   <body class="page-body">
     <header class="header">
       <nav class="nav">
         <ul class="list">
-          <li class="nav-item"><a href="blank.html">Информация</a></li>
-          <li class="nav-item"><a href="blank.html">Фото и видео</a></li>
-          <li class="nav-item"><a href="blank.html">Карта штата</a></li>
-          <li class="nav-item"><a>Гостиницы</a></li>
+          <li><a class="nav-item" href="blank.html">Информация</a></li>
+          <li><a class="nav-item"href="blank.html">Фото и видео</a></li>
+          <li><a class="nav-item"href="blank.html">Карта штата</a></li>
+          <li><a class="nav-item">Гостиницы</a></li>
         </ul>
       </nav>
       <a class="header-logo" href="index.html"><img src="img/logo/logonav.svg" width="138" height="70" alt="Логотип"></a>
     </header>
     <main>
       <section>
-        <div class="background-catalog"></div>
-        <form>
+        <form class="checkbox-form background-catalog">
           <fieldset class="fieldset">
-            <legend>Инфраструктура:</legend>
-            <ul>
+            <legend class="legend">Инфраструктура:</legend>
+            <ul class="list">
               <li>
                 <label for="check_1">Бассейн</label>
                 <input class="checkbox-on" id="check_1" type="checkbox">
@@ -45,8 +44,8 @@
             </ul>
           </fieldset>
           <fieldset class="fieldset">
-            <legend>Тип жилья:</legend>
-            <ul>
+            <legend class="legend">Тип жилья:</legend>
+            <ul class="list">
               <li>
                 <label>Гостиница</label>
                 <input class="checkbox-on" id="check_4" type="checkbox">
@@ -62,7 +61,7 @@
             </ul>
           </fieldset>
           <fieldset class="fieldset">
-            <legend>Стоимость в сутки(р):</legend>  
+            <legend class="legend">Стоимость в сутки(р):</legend>  
             <label><input type="text">От 0</label>
             <label><input type="text">До 3000</label>                   
             <a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a>  
@@ -70,22 +69,22 @@
         </form>
       </section>
       <section>
-        <b>Найдено:3</b>
-        <p>Сортировка:</p>
-          <ul>
-            <li><a>По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По рейтингу></a></li>
+        <b class="found">Найдено:3</b>
+        <p class="sorting">Сортировка:</p>
+          <ul class="list">
+            <li><a class="sorting">По цене</a></li>
+            <li><a class="sorting" href="#">По типу</a></li>
+            <li><a class="sorting" href="#">По рейтингу</a></li>
           </ul>
-          <ul>
-            <li><a href="#">По возрастанию</a></li>
-            <li><a href="#">По убыванию></a></li>
+          <ul class="list">
+            <li><a class="sorting" href="#">По возрастанию</a></li>
+            <li><a class="sorting" href="#">По убыванию</a></li>
           </ul>
       </section>
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="blank.html"><h3 class="title-black">Amara resort & spa</h3></a>
+            <a href="blank.html"><h3 class="hotel-names">Amara resort & spa</h3></a>
             <img src="img/catalog/amara.jpg" width="135" height="90" alt="Изображение Amara resort & spa">
             <p>Гостиница от 4000р.</p>
             <a href="blank.html">Подробнее</a>
@@ -94,7 +93,7 @@
             <span>Рейтинг 8,5</span>          
           </li>
           <li>
-            <a href="blank.html"><h3 class="title-black">Desert qual inn</h3></a>
+            <a href="blank.html"><h3 class="hotel-names">Desert qual inn</h3></a>
             <img src="img/catalog/desert.jpg" width="135" height="90" alt="Изображение Desert qual inn">
             <p>Мотель от 3000р.</p>
             <a href="blank.html">Подробнее</a>
@@ -103,7 +102,7 @@
             <span>Рейтинг 8,9</span>          
           </li>
           <li>
-            <a href="blank.html"><h3 class="title-black">Villas at poco diablo</h3></a>
+            <a href="blank.html"><h3 class="hotel-names">Villas at poco diablo</h3></a>
             <img src="img/catalog/villas.jpg" width="135" height="90" alt="Изображение Villas at poco diablo">
             <p>Апартаменты от 2000р.</p>
             <a href="blank.html">Подробнее</a>
@@ -120,10 +119,10 @@
         <a href="tel:+74956660166"> Тел:+7(495) 666-01-66 </a>
       </div>
       <div class="social-icons"> 
-        <ul>
-            <li class="social-link social-item-twtter"><a href="blank.html"></a></li>
-            <li class="social-link social-item-facebook"><a href="blank.html"></a></li>
-            <li class="social-link social-item-youtube"><a href="blank.html"></a></li>
+        <ul class="list">
+          <li><a class="social-link social-item-twitter" href="blank.html"></a></li>
+          <li><a class="social-link social-item-facebook" href="blank.html"></a></li>
+          <li><a class="social-link social-item-youtube" href="blank.html"></a></li>
         </ul>
       </div>
       <div class="website">
