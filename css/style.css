@@ -70,6 +70,10 @@
 .feature-list-item {
     align-items: center;
     text-align: center;
+}
+
+.advantages-item-gray {
+    background-color: var(--basic-light-grey);
 
 }
 
