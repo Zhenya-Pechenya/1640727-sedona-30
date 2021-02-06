@@ -14,10 +14,10 @@
   --basic-dark: #333333;
   --text-rating: #666666;
  /*button*/ 
-  --focus-brown: #604e43;  
-  --hover-brown: #503e33;
-  --focus-blue: #669ec0;
-  --hover-blue: #5496bd;
+  --hover-brown: #604e43;  
+  --focus-brown: #503e33;
+  --hover-blue: #669ec0;
+  --focus-blue: #5496bd;
   --filter-button: #ababab;
   --checkbox-block: #6a6a6a;
   --icon-calendar: #a9a9a9;
@@ -77,6 +77,10 @@
     color: var(--basic-dark)
 }
 
+.features-list {
+    background-color: var(--basic-white);
+}
+
 .advantages-item-gray {
     background-color: var(--basic-light-grey);
 
@@ -119,6 +123,9 @@
 
 
 .button-form {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
     background-color: var(--basic-brown);
     color: var(--basic-white);
     width: 568px;
@@ -126,23 +133,31 @@
     text-decoration: none;
 }
 
-
 .button-form:hover {
-    background-color: var(--focus-brown);
-    color: rgba()
-
-}
-
-.button-form:focus {
     background-color: var(--hover-brown);
 }
 
 
-.form-search {
+.button-form:focus {
+    background-color: var(--focus-brown);
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+
+
+.form-title {
     font-size: 30px;
     line-height: 24px;
     color: var(--basic-black);
 }
+
+.form-text {
+    line-height: 24px;
+}
+
+
+
 
 /*Main-catalog*/
 
@@ -173,6 +188,18 @@
     color: var(--basic-black);
  }
 
+ .sorting-item {
+     color: rgba(0, 0, 0, 0.3);
+ }
+
+ .sorting-item:hover {
+     color: var(--basic-blue);
+ }
+
+ .sorting-item:focus {
+     color: var(--basic-black);
+ }
+
  .fieldset {
      border: none;
  }
@@ -193,8 +220,26 @@
      background-color: var(--basic-brown);
  }
 
+ .button-reservation:hover {
+     background-color: var(--hover-brown);
+ }
+
+ .button-reservation:focus {
+     background-color: var(--focus-brown);
+     color: rgba(255, 255, 255, 0.3); 
+ }
+
  .button-details {
      background-color: var(--basic-blue);
+ }
+
+ .button-details:hover {
+     background-color: var(--hover-blue);
+ }
+
+ .button-details:focus {
+     background-color: var(--focus-blue);
+     color: rgba(255, 255, 255, 0.3); 
  }
 
  .rating {
