@@ -26,40 +26,49 @@
 
 /*Global*/
 .page-body {
-    font-family: "PT Sans", "Arial", sans-serif;
-    color: var(--basic-dark);
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    background-color: var(--basic-white);
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: var(--basic-dark);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: var(--basic-white);
 }
 
 
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 
 .nav-item {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--basic-black);
-    line-height: 26px;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--basic-black);
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: var(--basic-blue);
+}
+
+
+.nav-item:focus {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /*Main-index*/
 
 .background-index {
-    background-image: url("../img/index/backgroundindex.jpg");
+  background-image: url("../img/index/backgroundindex.jpg");
 }
 
 .title-primary, .found, .hotel-names {
-    text-decoration: none;
-    font-size: 21px;
-    line-height: 26px;
-    color: var(--basic-black);
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black);
 
 }
 
@@ -67,183 +76,189 @@
 /*Advantages*/
 
 .advantages-list {
-    text-align: center;
+  text-align: center;
 }
 
 
 .feature-item {
-    align-items: center;
-    text-align: center;
-    color: var(--basic-dark)
+  align-items: center;
+  text-align: center;
+  color: var(--basic-dark)
 }
 
 .features-list {
-    background-color: var(--basic-white);
+  background-color: var(--basic-white);
 }
 
 .advantages-item-gray {
-    background-color: var(--basic-light-grey);
+  background-color: var(--basic-light-grey);
 
 }
 
 .feature-item-house {
-    background-image: url("../img/index/icon-1.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../img/index/icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .feature-item-food {
-    background-image: url("../img/index/icon-2.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/index/icon-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .feature-item-gift {
-    background-image: url("../img/index/icon-3.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/index/icon-3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
 .feature-title {
-    font-size: 21px;
-    color: var(--basic-black);
+  font-size: 21px;
+  color: var(--basic-black);
 }
 
 .advantages-item-picture {
-    background-color: var(--basic-blue);
-    color: var(--basic-white);
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
 }
 
 .advantages-item-picture h3 {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 /*Form*/
 
 
 .button-form {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
-    background-color: var(--basic-brown);
-    color: var(--basic-white);
-    width: 568px;
-    height: 86px;
-    text-decoration: none;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: var(--basic-brown);
+  color: var(--basic-white);
+  width: 568px;
+  height: 86px;
+  text-decoration: none;
 }
 
 .button-form:hover {
-    background-color: var(--hover-brown);
+  background-color: var(--hover-brown);
 }
 
 
 .button-form:focus {
-    background-color: var(--focus-brown);
-    color: rgba(255, 255, 255, 0.3);
+  background-color: var(--focus-brown);
+  color: rgba(255, 255, 255, 0.3);
 
 }
-
 
 
 .form-title {
-    font-size: 30px;
-    line-height: 30px;
-    color: var(--basic-black);
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-black);
 }
 
 .form-text {
-    line-height: 24px;
+  line-height: 24px;
 }
-
 
 
 /*Main-catalog*/
 
 .background-catalog {
-    background-image: url(../img/catalog/backgroundcatalog.jpg);
+  background-image: url(../img/catalog/backgroundcatalog.jpg);
 }
 
 .legend {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .checkbox-form {
-    display: flex;
-    color: var(--basic-white)
+  display: flex;
+  color: var(--basic-white)
 
 }
  .found {
-    font-size: 21px;
-    line-height: 26px;
+  font-size: 21px;
+  line-height: 26px;
  }
 
  .sorting {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: normal;
-    text-decoration: none;
-    color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--basic-black);
  }
 
  .sorting-item {
-     color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
  }
 
  .sorting-item:hover {
-     color: var(--basic-blue);
+  color: var(--basic-blue);
  }
 
  .sorting-item:focus {
-     color: var(--basic-black);
+  color: var(--basic-black);
  }
 
  .fieldset {
-     border: none;
+  border: none;
  }
 
  .fieldset a {
-    text-decoration: none;
-    color: var(--basic-white);
+  text-decoration: none;
+  color: var(--basic-white);
  }
 
 
  .button-reservation-details {
-     font-weight: bold;
-     color: var(--basic-white);
-     text-decoration: none;
+  font-weight: bold;
+  color: var(--basic-white);
+  text-decoration: none;
  }
 
  .button-reservation {
-     background-color: var(--basic-brown);
+  background-color: var(--basic-brown);
  }
 
  .button-reservation:hover {
-     background-color: var(--hover-brown);
+  background-color: var(--hover-brown);
  }
 
  .button-reservation:focus {
-     background-color: var(--focus-brown);
-     color: rgba(255, 255, 255, 0.3); 
+  background-color: var(--focus-brown);
+  color: rgba(255, 255, 255, 0.3); 
  }
 
  .button-details {
-     background-color: var(--basic-blue);
+  background-color: var(--basic-blue);
  }
 
  .button-details:hover {
-     background-color: var(--hover-blue);
+  background-color: var(--hover-blue);
  }
 
  .button-details:focus {
-     background-color: var(--focus-blue);
-     color: rgba(255, 255, 255, 0.3); 
+  background-color: var(--focus-blue);
+  color: rgba(255, 255, 255, 0.3); 
  }
 
  .rating {
-     color: var(--text-rating);
-     background-color: var(--basic-grey);
+  color: var(--text-rating);
+  background-color: var(--basic-grey);
+ }
+
+ .hotel-names:hover {
+  color: var(--basic-blue);
+ }
+
+ .hotel-names:focus {
+  color: rgba(0, 0, 0, 0.3);
  }
 
 
@@ -251,47 +266,47 @@
 
 
 .footer {
-    background-color: rgba (255, 255, 255, 0.9)
+  background-color: rgba (255, 255, 255, 0.9)
 }
 
 
 .social-link {
-    background-color: var(--basic-blue);
-    height: 48px;
-    width: 46px;
-    display: flex;
+  background-color: var(--basic-blue);
+  height: 48px;
+  width: 46px;
+  display: flex;
 }
 
 .social-item-twitter {
-    background-image: url("../img/twitter.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
 .social-item-facebook {
-    background-image: url("../img/facebook.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
 .social-item-youtube {
-    background-image: url("../img/youtube.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/youtube.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
 .contacts {
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
 }
 
 
 .contacts a {
-    text-decoration: none;
-    color: var(--basic-black);
+  text-decoration: none;
+  color: var(--basic-black);
 }
 
