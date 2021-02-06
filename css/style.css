@@ -148,14 +148,13 @@
 
 .form-title {
     font-size: 30px;
-    line-height: 24px;
+    line-height: 30px;
     color: var(--basic-black);
 }
 
 .form-text {
     line-height: 24px;
 }
-
 
 
 
