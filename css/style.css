@@ -12,6 +12,7 @@
   --basic-white: #ffffff;
   --basic-brown: #766357;
   --basic-dark: #333333;
+  --text-rating: #666666;
  /*button*/ 
   --focus-brown: #604e43;  
   --hover-brown: #503e33;
@@ -55,6 +56,7 @@
 }
 
 .title-primary, .found, .hotel-names {
+    text-decoration: none;
     font-size: 21px;
     line-height: 26px;
     color: var(--basic-black);
@@ -125,12 +127,13 @@
 }
 
 
-.button-form :hover {
+.button-form:hover {
     background-color: var(--focus-brown);
+    color: rgba()
 
 }
 
-.button-form :focus {
+.button-form:focus {
     background-color: var(--hover-brown);
 }
 
@@ -169,6 +172,36 @@
     text-decoration: none;
     color: var(--basic-black);
  }
+
+ .fieldset {
+     border: none;
+ }
+
+ .fieldset a {
+    text-decoration: none;
+    color: var(--basic-white);
+ }
+
+
+ .button-reservation-details {
+     font-weight: bold;
+     color: var(--basic-white);
+     text-decoration: none;
+ }
+
+ .button-reservation {
+     background-color: var(--basic-brown);
+ }
+
+ .button-details {
+     background-color: var(--basic-blue);
+ }
+
+ .rating {
+     color: var(--text-rating);
+     background-color: var(--basic-grey);
+ }
+
 
 /*Footer*/
 
