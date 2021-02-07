@@ -181,12 +181,12 @@
   color: var(--basic-white)
 
 }
- .found {
+.found {
   font-size: 21px;
   line-height: 26px;
  }
 
- .sorting {
+.sorting {
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
@@ -194,70 +194,70 @@
   color: var(--basic-black);
  }
 
- .sorting-item {
+.sorting-item {
   color: rgba(0, 0, 0, 0.3);
  }
 
- .sorting-item:hover {
+.sorting-item:hover {
   color: var(--basic-blue);
  }
 
- .sorting-item:focus {
+.sorting-item:focus {
   color: var(--basic-black);
  }
 
- .fieldset {
+.fieldset {
   border: none;
  }
 
- .fieldset a {
+.fieldset a {
   text-decoration: none;
   color: var(--basic-white);
  }
 
 
- .button-reservation-details {
+.button-reservation-details {
   font-weight: bold;
   color: var(--basic-white);
   text-decoration: none;
  }
 
- .button-reservation {
+.button-reservation {
   background-color: var(--basic-brown);
  }
 
- .button-reservation:hover {
+.button-reservation:hover {
   background-color: var(--hover-brown);
  }
 
- .button-reservation:focus {
+.button-reservation:focus {
   background-color: var(--focus-brown);
   color: rgba(255, 255, 255, 0.3); 
  }
 
- .button-details {
+.button-details {
   background-color: var(--basic-blue);
  }
 
- .button-details:hover {
+.button-details:hover {
   background-color: var(--hover-blue);
  }
 
- .button-details:focus {
+.button-details:focus {
   background-color: var(--focus-blue);
   color: rgba(255, 255, 255, 0.3); 
  }
 
- .rating {
+.rating {
   color: var(--text-rating);
   background-color: var(--basic-grey);
  }
 
- .hotel-names:hover {
+.hotel-names:hover {
   color: var(--basic-blue);
  }
 
- .hotel-names:focus {
+.hotel-names:focus {
   color: rgba(0, 0, 0, 0.3);
  }
 
