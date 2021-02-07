@@ -58,10 +58,12 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+
+
 /*Main-index*/
 
 .background-index {
-  background-image: url("../img/index/backgroundindex.jpg");
+  background: var(--basic-blue) url("../img/index/backgroundindex.jpg");
 }
 
 .title-primary, .found, .hotel-names {
@@ -168,7 +170,7 @@
 /*Main-catalog*/
 
 .background-catalog {
-  background-image: url(../img/catalog/backgroundcatalog.jpg);
+  background: var(--basic-blue) url(../img/catalog/backgroundcatalog.jpg);
 }
 
 .legend {
