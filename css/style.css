@@ -204,7 +204,7 @@
 
 .sorting-item {
   color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted var(--basic-blue);
  }
 
 .sorting-item:hover {
