@@ -72,7 +72,7 @@
   background: var(--basic-blue) url("../img/index/backgroundindex.jpg");
 }
 
-.title-primary, .found, .hotel-names {
+.title-primary, .found {
   text-decoration: none;
   font-size: 21px;
   line-height: 26px;
@@ -204,14 +204,25 @@
 
 .sorting-item {
   color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
  }
 
 .sorting-item:hover {
   color: var(--basic-blue);
+  border-bottom: 1px dotted var(--basic-blue);
  }
 
 .sorting-item:focus {
   color: var(--basic-black);
+ }
+
+ .sorting-item-current {
+   color: var(--basic-blue);
+   border-bottom: none;
+ }
+
+ .sorting-item-current:hover {
+   border-bottom: none;
  }
 
 .fieldset {
@@ -261,12 +272,22 @@
   background-color: var(--basic-grey);
  }
 
-.hotel-names:hover {
+ .hotel-names {
+  font-size: 21px;
+  line-height: 26px;
+ }
+
+.hotel-names-link:hover {
   color: var(--basic-blue);
  }
 
-.hotel-names:focus {
+.hotel-names-link:focus {
   color: rgba(0, 0, 0, 0.3);
+ }
+
+ .hotel-names-link {
+   text-decoration: none;
+   color: var(--basic-black);
  }
 
 
