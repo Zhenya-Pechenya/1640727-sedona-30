@@ -58,7 +58,13 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+.nav-item-current {
+  color: var(--basic-brown);
+}
 
+.nav-item-current:hover {
+  color: var(--basic-brown);
+}
 
 /*Main-index*/
 
@@ -276,7 +282,7 @@
   background-color: var(--basic-blue);
   height: 48px;
   width: 46px;
-  display: flex;
+  display: inline-block;
 }
 
 .social-item-twitter {
