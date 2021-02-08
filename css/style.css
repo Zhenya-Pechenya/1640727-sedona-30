@@ -214,6 +214,7 @@
 
 .sorting-item:focus {
   color: var(--basic-black);
+  border-bottom: none;
  }
 
  .sorting-item-current {
