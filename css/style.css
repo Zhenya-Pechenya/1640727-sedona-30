@@ -141,6 +141,9 @@
   font-size: 21px;
 }
 
+.img-item {
+  display:block;
+}
 /*Form*/
 
 
@@ -418,15 +421,11 @@
 .feature-title-padding-1{
   padding-top: 149px;
   padding-bottom: 25px;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .feature-title-padding-2 {
   padding-top: 47px;
   padding-bottom: 25px;
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .advantages-item p {
