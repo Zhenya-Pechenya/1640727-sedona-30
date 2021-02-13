@@ -13,19 +13,19 @@
   </head>
   <body class="page-body">
     <header class="header">
-      <nav class="nav">
-        <ul class="list">
+      <nav class="header-nav-bar">
+        <ul class="list nav-list">
           <li><a class="nav-item" href="blank.html">Информация</a></li>
           <li><a class="nav-item" href="blank.html">Фото и видео</a></li>
+          <li><a class="header-logo"><img src="img/logo/logonav.svg" width="138" height="70" alt="Логотип"></a></li>
           <li><a class="nav-item" href="blank.html">Карта штата</a></li>
           <li><a class="nav-item" href="catalog.html">Гостиницы</a></li>
-        </ul>
+        </ul>  
       </nav>
-      <a class="header-logo"><img src="img/logo/logonav.svg" width="138" height="70" alt="Логотип"></a>
     </header>
     <main class="container"> 
       <section class="background-index">
-        <img class src="img/index/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону">
+        <img src="img/index/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону">
       </section>
       <section>
         <h1 class="title-primary">Седона - небольшой городок в Аризоне,<br>
@@ -35,7 +35,7 @@
       </section>
       <section>
         <h2>Преимущества</h2>
-        <ul class=" list advantages-list"> 
+        <ul class="list advantages-list"> 
           <li class="advantages-item advantages-item-picture">
             <h3>Настоящий городок</h3> 
             <span>— №1 — </span>
@@ -62,21 +62,23 @@
             <span> — №2 — </span>
             <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>        
-          <li class="advantages-item advantages-item-gray"> 
-            <h3 class="feature-title">Небольшая площадь</h3>
-            <span>— №3 —</span>
-            <p>Все достопримечательности находятся очень близко</p>
-          </li>
-          <li class="advantages-item advantages-item-gray">
-            <h3 class="feature-title">Красивая дорога</h3>
-            <span>— №4 —</span>
-            <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
-          </li>
-          <li class="advantages-item advantages-item-gray">
-            <h3 class="feature-title">Мало туристов</h3>
-            <span> — №5 —</span>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
-          </li>
+          <div class="advantages-gray-wrapper">
+            <li class="advantages-item advantages-item-gray"> 
+              <h3 class="feature-title">Небольшая площадь</h3>
+              <span>— №3 —</span>
+              <p>Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="advantages-item advantages-item-gray">
+              <h3 class="feature-title">Красивая дорога</h3>
+              <span>— №4 —</span>
+              <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+            </li>
+            <li class="advantages-item advantages-item-gray">
+              <h3 class="feature-title">Мало туристов</h3>
+              <span> — №5 —</span>
+              <p>Большинство едет в Гранд Каньон и толпится там</p>
+            </li>
+          </div>
         </ul>
       </section>
       <section>
@@ -93,7 +95,7 @@
         <a href="tel:+74956660166"> Тел:+7(495) 666-01-66 </a>
       </div>
       <div class="social-icons">
-        <ul class="list">
+        <ul class="list social-list">
             <li><a class="social-link social-item-twitter" href="blank.html"></a></li>
             <li><a class="social-link social-item-facebook" href="blank.html"></a></li>
             <li><a class="social-link social-item-youtube" href="blank.html"></a></li>

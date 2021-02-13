@@ -35,7 +35,6 @@
 }
 
 
-
 .list {
   list-style: none;
 }
@@ -340,3 +339,57 @@
   color: var(--basic-black);
 }
 
+/*Grid*/
+
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-height: 100%; /*говорим, что минимальная высота body равна высоте html(самой внешней обёртки)*/
+  display: grid; /*внутри бади начинается гридовый контекст*/
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.header {
+  display: grid;
+}
+
+.header-nav-bar {
+  background-color: var(--basic-white);
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 330px;
+}
+
+.advantages-gray-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.footer {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.social-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
