@@ -190,6 +190,8 @@
 .legend {
   font-size: 16px;
   font-weight: bold;
+  padding-top: 13px;
+  padding-bottom: 24px;
 }
 
 .checkbox-form {
@@ -236,6 +238,9 @@
 
 .fieldset {
   border: none;
+  margin: 0;
+  padding: 0;
+
  }
 
 .fieldset a {
@@ -354,9 +359,6 @@
   height: 100%;
 }
 
-.header {
-  display: grid;
-}
 
 .header-nav-bar {
   background-color: var(--basic-white);
@@ -365,7 +367,6 @@
 .nav-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
 
 .container {
@@ -431,4 +432,82 @@
 .advantages-item p {
   padding-top: 23px;
   padding-bottom: 54px;
+}
+
+.checkbox-items li {
+  padding-bottom: 25px;
+}
+
+.checkbox-items:last-child {
+  padding-bottom: 8px;
+}
+
+.fieldset {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.sorting-list {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+}
+
+.found {
+  grid-column-start: 2;
+}
+
+.sorting {
+  grid-column-start: 4;
+}
+
+.hotel {
+  display: grid;
+  grid-template-rows: 30px 30px 30px 30px 30px;
+  grid-template-columns: repeat(14, 1fr);
+
+}
+
+.hotel img {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.hotel-names-link {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 7;
+
+}
+
+.hotel p {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+
+}
+
+.button-details {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+
+}
+
+.button-reservation {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.rating {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 12;
+  grid-column-end: 14;
 }

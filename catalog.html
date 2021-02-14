@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -12,9 +12,10 @@
     <link rel="manifest" href="manifest.webmainfest">
   </head>
   <body class="page-body">
+    <div class="container">
     <header class="header">
-      <nav class="nav">
-        <ul class="list">
+      <nav class="header-nav-bar">
+        <ul class="list nav-list">
           <li><a class="nav-item" href="blank.html">Информация</a></li>
           <li><a class="nav-item" href="blank.html">Фото и видео</a></li>
           <li><a class="nav-item" href="blank.html">Карта штата</a></li>
@@ -28,7 +29,7 @@
         <form class="checkbox-form background-catalog">
           <fieldset class="fieldset">
             <legend class="legend">Инфраструктура:</legend>
-            <ul class="list">
+            <ul class="list checkbox-items">
               <li class="checkbox">
                 <label for="check_1">Бассейн</label>
                 <input class="checkbox-on" id="check_1" type="checkbox">
@@ -45,7 +46,7 @@
           </fieldset>
           <fieldset class="fieldset">
             <legend class="legend">Тип жилья:</legend>
-            <ul class="list">
+            <ul class="list checkbox-items">
               <li class="checkbox">
                 <label for="check_4">Гостиница</label>
                 <input id="check_4" type="checkbox">
@@ -64,14 +65,14 @@
             <legend class="legend">Стоимость в сутки(р):</legend>  
             <label><input type="text">От 0</label>
             <label><input type="text">До 3000</label>                   
-            <a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a>  
+            <p><a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a></p>
           </fieldset>
         </form>
       </section>
-      <section>
+      <section class="sorting-list">
         <b class="found">Найдено:3</b>
         <p class="sorting">Сортировка:</p>
-          <ul class="list">
+          <ul class="list sorting-items">
             <li><a class="sorting sorting-item sorting-item-current">По цене</a></li>
             <li><a class="sorting sorting-item" href="#">По типу</a></li>
             <li><a class="sorting sorting-item" href="#">По рейтингу</a></li>
@@ -113,16 +114,16 @@
         </ul>
       </section>
     </main>
-    <footer class="footer"> 
-      <div class="contacts"> 
+    <footer class="footer">
+      <div class="contacts">
         <b>#VISITSEDONA</b>
         <a href="tel:+74956660166"> Тел:+7(495) 666-01-66 </a>
       </div>
-      <div class="social-icons"> 
-        <ul class="list">
-          <li><a class="social-link social-item-twitter" href="blank.html"></a></li>
-          <li><a class="social-link social-item-facebook" href="blank.html"></a></li>
-          <li><a class="social-link social-item-youtube" href="blank.html"></a></li>
+      <div class="social-icons">
+        <ul class="list social-list">
+            <li><a class="social-link social-item-twitter" href="blank.html"></a></li>
+            <li><a class="social-link social-item-facebook" href="blank.html"></a></li>
+            <li><a class="social-link social-item-youtube" href="blank.html"></a></li>
         </ul>
       </div>
       <div class="website">
@@ -130,5 +131,6 @@
         <a href="https://htmlacademy.ru/intensive/htmlcss"> <img src="img/logo/logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy"></a>  
       </div>
     </footer>
+    </div>
     </body>
   </html>
