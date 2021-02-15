@@ -442,9 +442,22 @@
   padding-bottom: 8px;
 }
 
-.fieldset {
-  padding-left: 75px;
-  padding-right: 75px;
+.checkbox-form {
+  display: grid;
+  padding-left: 72px;
+  padding-right: 72px;
+  grid-template-columns: 140px 140px 1fr;
+  column-gap: 140px;
+}
+
+.fieldset-from-to {
+  display: grid;
+  grid-template-columns: 1fr 317px;
+}
+
+.grid-from-to {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .sorting-list {
@@ -462,52 +475,23 @@
 
 .hotel {
   display: grid;
+  grid-template-columns: 135px 1fr 110px;
+ column-gap: 29px;
+}
+
+
+.hotel-list {
+  margin-right: 72px;
+  margin-left: 72px;
+}
+
+
+.rating-grid {
+  display: grid;
   grid-template-rows: 30px 30px 30px 30px 30px;
-  grid-template-columns: repeat(14, 1fr);
-
-}
-
-.hotel img {
-  grid-row-start: 2;
-  grid-row-end: 5;
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.hotel-names-link {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 4;
-  grid-column-end: 7;
-
-}
-
-.hotel p {
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 4;
-  grid-column-end: 6;
-
-}
-
-.button-details {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 4;
-  grid-column-end: 6;
-
-}
-
-.button-reservation {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 6;
-  grid-column-end: 8;
 }
 
 .rating {
   grid-row-start: 4;
   grid-row-end: 5;
-  grid-column-start: 12;
-  grid-column-end: 14;
 }

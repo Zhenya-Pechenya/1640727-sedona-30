@@ -32,11 +32,11 @@
             <ul class="list checkbox-items">
               <li class="checkbox">
                 <label for="check_1">Бассейн</label>
-                <input class="checkbox-on" id="check_1" type="checkbox">
+                <input class="checkbox-on" id="check_1" type="checkbox">     
               </li>
               <li class="checkbox">
                 <label for="check_2">Парковка</label>
-                <input id="check_2" type="checkbox">
+                <input id="check_2" type="checkbox">                
               </li> 
               <li class="checkbox">
                 <label for="check_3">Wi-fi</label>
@@ -50,7 +50,7 @@
               <li class="checkbox">
                 <label for="check_4">Гостиница</label>
                 <input id="check_4" type="checkbox">
-              </li>
+              </li>                
               <li class="checkbox">
                 <label for="check_5">Мотель</label>
                 <input id="check_5" type="checkbox">
@@ -58,14 +58,16 @@
               <li class="checkbox">
                 <label for="check_6">Апартаменты</label>
                 <input id="check_6" type="checkbox">
-              </li>
+              </li>              
             </ul>
-          </fieldset>
-          <fieldset class="fieldset">
-            <legend class="legend">Стоимость в сутки(р):</legend>  
-            <label><input type="text">От 0</label>
-            <label><input type="text">До 3000</label>                   
-            <p><a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a></p>
+          </fieldset> 
+          <fieldset class="fieldset fieldset-from-to">
+            <div class="grid-from-to">
+              <legend class="legend">Стоимость в сутки(р):</legend>  
+              <label><input type="text">От 0</label>
+              <label><input type="text">До 3000</label>                   
+            <p><a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a></p>  
+            </div>          
           </fieldset>
         </form>
       </section>
@@ -83,33 +85,42 @@
           </ul>
       </section>
       <section>
-        <ul class="list">
+        <ul class="list hotel-list">
           <li class="hotel">
-            <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Amara resort & spa</h3></a>
-            <img src="img/catalog/amara.jpg" width="135" height="90" alt="Изображение Amara resort & spa">
-            <p>Гостиница от 4000р.</p>
-            <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
-            <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>
-            <div></div>
-            <span class="rating">Рейтинг 8,5</span>          
+            <div>
+              <img src="img/catalog/amara.jpg" width="135" height="90" alt="Изображение Amara resort & spa">
+            </div>
+            <div>
+              <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Amara resort & spa</h3></a>
+              <p>Гостиница от 4000р.</p>
+              <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
+              <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>            
+            </div>
+            <div class="rating-grid"><span class="rating">Рейтинг 8,5</span></div>         
+          </li>
+          <li class="hotel">         
+            <div>
+              <img src="img/catalog/desert.jpg" width="135" height="90" alt="Изображение Desert qual inn">
+            </div>
+            <div>
+              <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Desert qual inn</h3></a>
+              <p>Мотель от 3000р.</p>
+              <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
+              <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>
+            </div>
+            <div class="rating-grid"><span class="rating">Рейтинг 8,9</span></div>          
           </li>
           <li class="hotel">
-            <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Desert qual inn</h3></a>
-            <img src="img/catalog/desert.jpg" width="135" height="90" alt="Изображение Desert qual inn">
-            <p>Мотель от 3000р.</p>
-            <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
-            <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>
-            <div></div>
-            <span class="rating">Рейтинг 8,9</span>          
-          </li>
-          <li class="hotel">
-            <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Villas at poco diablo</h3></a>
-            <img src="img/catalog/villas.jpg" width="135" height="90" alt="Изображение Villas at poco diablo">
-            <p>Апартаменты от 2000р.</p>
-            <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
-            <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>
-            <div></div>
-            <span class="rating">Рейтинг 9,2</span>
+            <div>
+              <img src="img/catalog/villas.jpg" width="135" height="90" alt="Изображение Villas at poco diablo">
+            </div>
+            <div>
+              <a href="blank.html" class="hotel-names-link"><h3 class="hotel-names">Villas at poco diablo</h3></a>
+              <p>Апартаменты от 2000р.</p>
+              <a class="button-reservation-details button-details" href="blank.html">Подробнее</a>
+              <a class="button-reservation-details button-reservation" href="blank.html">Забронировать</a>
+            </div>
+            <div class="rating-grid"><span class="rating">Рейтинг 9,2</span></div>
           </li>
         </ul>
       </section>
