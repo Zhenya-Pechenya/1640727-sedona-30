@@ -32,6 +32,7 @@
   font-size: 14px;
   line-height: 21px;
   background-color: var(--basic-white);
+  position: relative;
 }
 
 
@@ -71,7 +72,7 @@
 
 .background-index {
   background: var(--basic-blue) url("../img/index/backgroundindex.jpg");
-  height: 509px;
+  min-height: 509px;
 }
 
 .title-primary, .found {
@@ -187,6 +188,10 @@
 
 .index-form {
   text-align: center;
+}
+
+.map img {
+  display: block;
 }
 
 
@@ -327,9 +332,15 @@
 
 
 .footer {
-  background-color: rgba (255, 255, 255, 0.9)
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
+.footer-index {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .social-link {
   background-color: var(--basic-blue);
@@ -360,15 +371,16 @@
 }
 
 .social-list li{
-  padding-left: 6px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  margin-left: 6px;
 }
 
 .contacts {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 36px;
 }
 
 
@@ -377,15 +389,15 @@
   color: var(--basic-black);
 }
 
-.website p{
-  padding-right: 8px;
-  margin-bottom: 45;
-  margin-top: 49px;
+
+.website {
+  margin:auto;
 }
 
-.website a{
-  margin-top: 38px;
+.website p{
+  padding-right: 8px;
 }
+
 
 /*Grid and flex*/
 
@@ -415,13 +427,8 @@
 
 
 .footer {
-  display: flex;
-  flex-basis: 400px;
-  justify-content: center;
-}
-
-.footer div {
-  flex-grow: 1;
+display: grid;
+grid-template-columns: 400px 400px 400px;
 }
 
 
@@ -531,13 +538,11 @@
 .social-list {
   display: flex;
   justify-content: center;
-}
-
-.contacts {
-  text-align: center;
-  margin-top: 23px;
+  margin-top: 36px;
   margin-bottom: 36px;
 }
+
+
 
 .background-index {
   display: grid;
@@ -546,47 +551,39 @@
 }
 
 .nav-list {
-  display: grid;
-  grid-template-columns: 228px 228px 1fr 228px 228px;
+  display: flex;
   margin-top: 14px;
   margin-bottom: 16px;
 }
 
-.nav-item-left {
-  text-align: left;
-  padding-left: 72px
+.nav-list li:nth-child(4) {
+  margin-left: auto;
+  margin-right: 72px;
 }
 
-.nav-item-right {
-  text-align: right;
-  padding-right: 72px;
+.nav-list li:nth-child(1) {
+  margin-left: 72px;
+  margin-right: auto;
 }
 
-.nav-item-map {
-  grid-column-start: 4;
-
+.nav-list li:nth-child(2) {
+  margin-left: 133px;
+  margin-right: 418px;
 }
 
-.nav-item-hotels {
-  grid-column-start: 5;
+.nav-list li:nth-child(3) {
+  margin-right: 133px;
 
-}
-
-.nav-list li {
-  flex-grow: 1;
 }
 
 .header-nav-bar {
   background-color: var(--basic-white);
 }
 
-.header {
-  position:relative;
-}
-
 .header-logo {
   position:absolute;
-  left: 531px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 0;
 }
 
