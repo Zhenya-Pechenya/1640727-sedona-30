@@ -159,8 +159,9 @@
   font-weight: bold;
   background-color: var(--basic-brown);
   color: var(--basic-white);
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 568px;
-  height: 86px;
   text-decoration: none;
 }
 
@@ -187,6 +188,7 @@
 }
 
 .index-form {
+  display: grid;
   text-align: center;
 }
 
@@ -272,7 +274,10 @@
   font-weight: bold;
   color: var(--basic-white);
   text-decoration: none;
-  margin-bottom: 30px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 3px;
+  padding-bottom: 3px;
  }
 
 .button-reservation {
@@ -310,7 +315,8 @@
  .hotel-names {
   font-size: 21px;
   line-height: 26px;
-  
+  margin: 0;
+  margin-top: 24px;
  }
 
 .hotel-names-link:hover {
@@ -528,7 +534,16 @@ grid-template-columns: 400px 400px 400px;
 .column-reservation {
   padding-left: 6px;
   width: 142px;
+}
 
+.column-reservation p{
+  margin-top: 7px;
+  margin-bottom: 16px;
+}
+
+.column-details p{
+  margin-top: 7px;
+  margin-bottom: 16px;
 }
 
 .rating-grid {
