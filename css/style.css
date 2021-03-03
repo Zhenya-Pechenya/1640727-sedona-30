@@ -77,6 +77,13 @@
   position: relative;
 }
 
+.background-index::after {
+  width: 1200px;
+  height: 57px;
+  bottom: 0;
+  background: url(../img/index/white-wrap.svg);
+}
+
 .title-primary, .found {
   text-decoration: none;
   font-size: 21px;
@@ -99,12 +106,6 @@
   margin-bottom: 16px;
 }
 
-.white-wrap::after {
-  background-image: url(../img/index/white-wrap.svg);
-  width: 1200px;
-  height: 57px;
-}
-
 /*Advantages*/
 
 .advantages-list {
@@ -120,8 +121,6 @@
 
 }
 
-
-
 .feature-title-padding-1{
   margin: 0;
   padding-top: 160px;
@@ -132,9 +131,7 @@
   margin: 0;
   padding-top: 47px;
   margin-bottom: 25px;
-
 }
-
 
 .features-list {
   background-color: var(--basic-white);
@@ -142,15 +139,12 @@
 
 .advantages-item-gray {
   background-color: var(--basic-light-grey);
-
 }
 
 .feature-item-house {
   background-image: url("../img/index/icon-1.svg");
   background-repeat: no-repeat;
   background-position: 50% 25%;
-
-
 }
 
 .feature-item-food {
@@ -232,6 +226,7 @@
   line-height: 30px;
   color: var(--basic-black);
   margin: 0;
+  margin-bottom: 4px;
 }
 
 .form-text {
@@ -241,9 +236,10 @@
 }
 
 .index-form {
+  padding-top: 58px;
   display: grid;
   text-align: center;
-
+  
 }
 
 .map img {
@@ -434,7 +430,15 @@
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 /*Footer*/
@@ -704,5 +708,6 @@ grid-template-columns: 400px 400px 400px;
   left: 50%;
   transform: translateX(-50%);
   top: 0;
+  z-index: 1;
 }
 
