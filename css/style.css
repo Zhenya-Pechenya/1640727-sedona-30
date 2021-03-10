@@ -273,7 +273,7 @@
 
 .date input {
   background-color: var(--basic-grey);
-  border: none;
+  border: 2px solid var(--basic-grey);
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;  
@@ -286,17 +286,20 @@
 
 .date input:hover {
   background-color: var(--input-hover);
+  border-color: var(--input-hover);
 }
 
 .date input:focus {
   background-color: var(--basic-white);
-  outline: var(--border-color);
+  outline: none;
+  border: 2px solid var(--border-color);
 }
 
 .date button {
   position: absolute;
   border: none;
   right: 0;
+  background: none;
 }
 
 .date button:hover path {
@@ -354,7 +357,8 @@
 }
 
 .number-people {
-  border: none;
+  outline: none;
+  border: 2px solid var(--basic-grey);
   background-color: var(--basic-grey);
   width: 38px;
   font-weight: bold;
@@ -366,28 +370,25 @@
 
 .number-people-input:hover {
   background-color: var(--input-hover);
+  border-color: var(--input-hover);
 }
 
 .number-people-input:focus {
   background-color: var(--basic-white);
-  outline-color: var(--border-color);
+  border-color: var(--border-color);
 }
 
-.button-minus:hover path {
+.number-people svg {
+  fill: var(--icon-calendar);
+}
+.number-people:hover svg {
   fill: var(--basic-black);
 }
 
-.button-minus:focus path {
+.number-people:focus svg {
   fill: var(--basic-blue);
 }
 
-.button-plus:hover path {
-  fill: var(--basic-black);
-}
-
-.button-plus:focus path {
-  fill: var(--basic-blue);
-}
 
 .button-minus, .button-plus {
   outline: none;
