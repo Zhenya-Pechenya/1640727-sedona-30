@@ -290,7 +290,7 @@
 
 .date input:focus {
   background-color: var(--basic-white);
-  border-color: var(--border-color);
+  outline: var(--border-color);
 }
 
 .date button {
@@ -307,6 +307,9 @@
   fill: var(--basic-blue);
 }
 
+.date button:focus {
+  outline: none;
+}
 .arrival-date {
   margin-right: 24px;
 }
@@ -358,37 +361,48 @@
   font-size: 14px;
   line-height: 26px;
   position: relative;
+  text-align: center;
 }
 
-
-.button-minus::before {
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 3px;
-  background-color: var(--icon-calendar);
-  left: 50%;
-  transform: translateX(-50%);
+.number-people-input:hover {
+  background-color: var(--input-hover);
 }
 
-.button-plus::after {
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 3px;
-  background-color: var(--icon-calendar);
-  left: 50%;
-  transform: translateX(-50%); 
+.number-people-input:focus {
+  background-color: var(--basic-white);
+  outline-color: var(--border-color);
 }
 
-.button-plus::after {
-  content: "";
+.button-minus:hover path {
+  fill: var(--basic-black);
+}
+
+.button-minus:focus path {
+  fill: var(--basic-blue);
+}
+
+.button-plus:hover path {
+  fill: var(--basic-black);
+}
+
+.button-plus:focus path {
+  fill: var(--basic-blue);
+}
+
+.button-minus, .button-plus {
+  outline: none;
+}
+
+.button-minus svg {
   position: absolute;
-  width: 3px;
-  height: 12px;
-  background-color: var(--icon-calendar);
-  left: 50%;
-  transform: translateX(-50%);
+  top: 18px;
+  left: 13px;
+}
+
+.button-plus svg {
+  position: absolute;
+  top: 14px;
+  right: 14px;
 }
 
 .button-form {
@@ -412,7 +426,7 @@
 }
 
 .button-form:focus {
-  border: none;
+  outline: none;
   background-color: var(--focus-blue);
   color: rgba(255, 255, 255, 0.3);
 }
