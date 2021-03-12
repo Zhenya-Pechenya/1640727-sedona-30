@@ -867,7 +867,7 @@ grid-template-columns: 400px 400px 400px;
 
 .checkbox-form {
   display: grid;
-  padding-left: 72px;
+  padding-left: 111px;
   padding-right: 72px;
   padding-bottom: 8px;
   grid-template-columns: 140px 140px 1fr;
