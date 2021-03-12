@@ -548,12 +548,15 @@
  }
 
  .price-min::after {
+   content: ""; 
   position: absolute;
   width: 2px;
   height: 22px;
   left: 50%;
   top: 50%;
+  transform: translateY(-50%);
   background: #FFFFFF;
+  border-radius: 2px;
  }
 
  .price-max input{
