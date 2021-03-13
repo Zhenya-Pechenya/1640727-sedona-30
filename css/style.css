@@ -453,7 +453,6 @@
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 24px;
-  margin-left: -42px;
 }
 
 .checkbox-form {
@@ -509,6 +508,7 @@
   border: none;
   margin: 0;
   padding: 0;
+
  }
 
 .fieldset a {
@@ -661,7 +661,7 @@
   font-size: 21px;
   line-height: 26px;
   margin: 0;
-  margin-top: -8px;
+
 
  }
 
@@ -677,7 +677,7 @@
  .hotel-names-link {
    text-decoration: none;
    color: var(--basic-black);
-   display: inline-block;
+   display: block;
  }
 
 .stars {
@@ -865,12 +865,13 @@ grid-template-columns: 400px 400px 400px;
 
 .checkbox-items li {
   margin-bottom: 25px;
+  padding-left: 42px;
 }
 
 
 .checkbox-form {
   display: grid;
-  padding-left: 111px;
+  padding-left: 72px;
   padding-right: 72px;
   padding-bottom: 8px;
   grid-template-columns: 140px 140px 1fr;
@@ -924,8 +925,8 @@ grid-template-columns: 400px 400px 400px;
   padding-right: 72px;
   padding-left: 72px;
   border-bottom: 1px solid var(--border-color);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 22px;
+  padding-bottom: 28px;
 }
 
 .hotel-item:first-child {
@@ -942,6 +943,7 @@ grid-template-columns: 400px 400px 400px;
 
 .img-hotel {
   margin: 0;
+  padding-top: 8px;
 }
 
 .img-hotel img{
@@ -950,7 +952,7 @@ grid-template-columns: 400px 400px 400px;
 
 .flex-reservation-details {
   display: flex;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 .column-reservation {
