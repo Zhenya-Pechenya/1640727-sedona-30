@@ -517,7 +517,7 @@
  }
 
  .range-filter {
-   width: 321px;
+   width: 318px;
  }
 
 
@@ -533,10 +533,10 @@
    justify-content: space-between;
    border: 2px solid #FFFFFF;
    border-radius: 2px;
-   padding-top: 7px;
-   padding-bottom: 7px;
-   padding-left: 51px;
-   padding-right: 36px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 65px;
+   padding-right: 28px;
    position: relative;
  }
 
@@ -579,7 +579,7 @@
  .range-controls .bar {
    background-color: var(--basic-white);
    height: 2px;
-   width: 80%;
+   width: 85%;
  }
 
  .range-controls .toggle {
@@ -597,28 +597,29 @@
  }
 
 .range-controls .toggle-max {
-   left: 248px;
+   left: 250px;
  }
 
 .flex-from-to p {
-  width: 137px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  width: 133px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
   border: 2px solid var(--basic-white);
   border-radius: 2px;
-  margin: auto;
+  margin-left: 85px;
   margin-top: 33px;
+  
 }
 
 .button-reservation-details {
   font-weight: bold;
   color: var(--basic-white);
   text-decoration: none;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-right: 18px;
+  padding-left: 17px;
+  padding-top: 4px;
+  padding-bottom: 4px;
  }
 
 .button-reservation {
@@ -651,10 +652,10 @@
   color: var(--text-rating);
   background-color: var(--basic-grey);
   margin: 0;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 15px;
-  padding-right: 12px;
+  padding-right: 14px;
  }
 
  .hotel-names {
@@ -685,6 +686,7 @@
   height: 17px;
   background-repeat: space;
   margin-bottom: 47px;
+  margin-top: 5px;
 }
 
 .stars-1 {
@@ -739,6 +741,7 @@
 }
 
 .footer-index {
+  width: 1200px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -775,8 +778,9 @@
   line-height: 26px;
   font-weight: bold;
   text-align: center;
-  padding-top: 23px;
+  padding-top: 27px;
   padding-bottom: 36px;
+  padding-left: 125px;
 }
 
 
@@ -785,9 +789,9 @@
   color: var(--basic-black);
 }
 
-
-.website {
-  margin:auto;
+.contacts p {
+  margin: 0;
+  margin-top: 10px;
 }
 
 .website p{
@@ -818,6 +822,7 @@
   width: 1200px;
   margin: 0 auto;
   position: relative;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .features-list {
@@ -832,8 +837,8 @@
 
 
 .footer {
-display: grid;
-grid-template-columns: 400px 400px 400px;
+display: flex;
+justify-content: space-between;
 }
 
 
@@ -871,11 +876,11 @@ grid-template-columns: 400px 400px 400px;
 
 .checkbox-form {
   display: grid;
-  padding-left: 72px;
+  padding-left: 69px;
   padding-right: 72px;
   padding-bottom: 8px;
   grid-template-columns: 140px 140px 1fr;
-  column-gap: 140px;
+  column-gap: 115px;
 }
 
 .fieldset-from-to {
@@ -893,13 +898,15 @@ grid-template-columns: 400px 400px 400px;
 
 .arrow-down { 
   position: absolute;
-  right: 88px;
+  right: 74px;
+  top: 6px;
   transform: rotate(180deg);
 }
 
 .arrow-up {
   position: absolute;
-  right: 111px;
+  right: 96px;
+  top: 8px;
 }
 
 .arrows:hover path {
@@ -925,8 +932,8 @@ grid-template-columns: 400px 400px 400px;
   padding-right: 72px;
   padding-left: 72px;
   border-bottom: 1px solid var(--border-color);
-  padding-top: 22px;
-  padding-bottom: 28px;
+  padding-top: 23px;
+  padding-bottom: 29px;
 }
 
 .hotel-item:first-child {
@@ -943,7 +950,7 @@ grid-template-columns: 400px 400px 400px;
 
 .img-hotel {
   margin: 0;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .img-hotel img{
@@ -952,37 +959,39 @@ grid-template-columns: 400px 400px 400px;
 
 .flex-reservation-details {
   display: flex;
-  padding-top: 5px;
 }
 
 .column-reservation {
-  padding-left: 6px;
+  padding-left: 5px;
   width: 142px;
 
 }
 
 .column-reservation p{
   margin-top: 7px;
-  margin-bottom: 16px;
+  margin-bottom: 19px;
 }
 
 .column-details p{
   margin-top: 7px;
-  margin-bottom: 16px;
+  margin-bottom: 19px;
 }
 
 
 .website {
   display: flex;
   justify-content: center;
+  padding-right: 140px;
+  padding-top: 43px;
 }
 
 .social-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  padding-right: 17px;
 }
 
 .background-index {
