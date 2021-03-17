@@ -101,7 +101,9 @@
 .title-primary-section {
   padding-bottom: 57px;
   padding-top: 43px;
+  padding-left: 337px;
   text-align: center;
+  width: 530px;
   
 }
 
@@ -125,20 +127,19 @@
   align-items: center;
   text-align: center;
   color: var(--basic-dark);
-  padding-bottom: 28px;
-
-}
-
-.feature-title-padding-1{
-  margin: 0;
+  padding-bottom: 81px;
   padding-top: 160px;
+
+}
+
+.feature-item .feature-title{
+  margin: 0;
   margin-bottom: 25px;
 }
 
-.feature-title-padding-2 {
+.advantages-item-gray .feature-title {
   margin: 0;
-  padding-top: 47px;
-  margin-bottom: 25px;
+  margin-bottom: 29px;
 }
 
 .features-list {
@@ -147,6 +148,8 @@
 
 .advantages-item-gray {
   background-color: var(--basic-light-grey);
+  padding-bottom: 54px;
+  padding-top: 47px;
 }
 
 .feature-item-house {
@@ -180,18 +183,23 @@
   color: var(--basic-white);
 }
 
+.advantages-item-picture-title {
+  padding-top: 47px;
+  padding-bottom: 50px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
 .advantages-item-picture-title h3{
   margin: 0;
-  padding-top: 47px;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   font-size: 21px
 }
 
 
 .advantages-item-picture-title p{
   margin: 0;
-  margin-top: 23px;
-  padding-bottom: 54px;
+  margin-top: 25px;
 }
 
 
@@ -248,6 +256,7 @@
   padding-top: 55px;
   display: grid;
   text-align: center;
+  position: relative;
   
 }
 
@@ -255,7 +264,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 200px;
+  top: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 55px;
@@ -837,6 +846,7 @@
 .advantages-gray-wrapper {
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  
 }
 
 
@@ -869,7 +879,6 @@ justify-content: space-between;
 .advantages-item p {
   margin:0;
   margin-top: 23px;
-  padding-bottom: 54px;
 }
 
 .checkbox-items li {
