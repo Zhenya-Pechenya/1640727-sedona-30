@@ -94,17 +94,15 @@
   font-size: 21px;
   line-height: 26px;
   color: var(--basic-black);
-
 }
 
 
 .title-primary-section {
   padding-bottom: 57px;
   padding-top: 43px;
-  padding-left: 337px;
-  text-align: center;
+  margin: 0 auto;
   width: 530px;
-  
+  text-align: center;  
 }
 
 .title-primary {
@@ -127,8 +125,10 @@
   align-items: center;
   text-align: center;
   color: var(--basic-dark);
-  padding-bottom: 81px;
+  padding-bottom: 84px;
   padding-top: 160px;
+  padding-right: 45px;
+  padding-left: 45px;
 
 }
 
@@ -148,8 +148,10 @@
 
 .advantages-item-gray {
   background-color: var(--basic-light-grey);
-  padding-bottom: 54px;
+  padding-bottom: 55px;
   padding-top: 47px;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
 .feature-item-house {
@@ -185,7 +187,7 @@
 
 .advantages-item-picture-title {
   padding-top: 47px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
   padding-right: 48px;
   padding-left: 48px;
 }
@@ -197,9 +199,9 @@
 }
 
 
-.advantages-item-picture-title p{
+.advantages-item-picture-title span{
   margin: 0;
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
@@ -267,7 +269,10 @@
   top: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 55px;
+  padding-left: 53px;
+  padding-right: 57px;
+  padding-top: 53px;
+  padding-bottom: 57px;
   background-color: var(--basic-white);
   width: 458px;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
@@ -311,7 +316,7 @@
 .date button {
   position: absolute;
   border: none;
-  right: 4px;
+  right: 3px;
   background: none;
 }
 
@@ -418,7 +423,7 @@
 .button-plus svg {
   position: absolute;
   top: 13px;
-  right: 13px;
+  right: 11px;
 }
 
 .button-form {
@@ -878,7 +883,7 @@ justify-content: space-between;
 
 .advantages-item p {
   margin:0;
-  margin-top: 23px;
+  margin-top: 24px;
 }
 
 .checkbox-items li {
