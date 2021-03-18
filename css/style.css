@@ -73,7 +73,8 @@
 /*Main-index*/
 
 .background-index {
-  background: var(--basic-blue) url("../img/index/backgroundindex.jpg");
+  background-color: var(--basic-blue);
+  background-image: url("../img/index/backgroundindex.jpg");
   min-height: 509px;
   position: relative;
 }
@@ -220,11 +221,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   width: 568px;
+  display: inline-block;
   text-decoration: none;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
 }
 
 .hotel-search-button:hover {
@@ -256,10 +254,8 @@
 
 .index-form {
   padding-top: 52px;
-  display: grid;
   text-align: center;
-  position: relative;
-  
+  position: relative;  
 }
 
 .form {
@@ -665,8 +661,8 @@
   margin: 0;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 15px;
-  padding-right: 14px;
+  padding-left: 14px;
+  padding-right: 13px;
  }
 
  .hotel-names {
@@ -935,8 +931,8 @@ justify-content: space-between;
 .sorting-items {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 32px;
-  padding-bottom: 36px;
+  padding-top: 30px;
+  padding-bottom: 32px;
   margin-left: 8px;
   width: 500px;
 }
@@ -950,7 +946,7 @@ justify-content: space-between;
   padding-left: 72px;
   border-bottom: 1px solid var(--border-color);
   padding-top: 23px;
-  padding-bottom: 29px;
+  padding-bottom: 31px;
 }
 
 .hotel-item:first-child {
