@@ -98,8 +98,8 @@
 
 
 .title-primary-section {
-  padding-bottom: 57px;
-  padding-top: 43px;
+  padding-bottom: 55px;
+  padding-top: 40px;
   margin: 0 auto;
   width: 530px;
   text-align: center;  
@@ -107,7 +107,7 @@
 
 .title-primary {
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 47px;
 }
 
 .title-primary-section p {
@@ -139,7 +139,7 @@
 
 .advantages-item-gray .feature-title {
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 
 .features-list {
@@ -149,7 +149,7 @@
 .advantages-item-gray {
   background-color: var(--basic-light-grey);
   padding-bottom: 55px;
-  padding-top: 47px;
+  padding-top: 45px;
   padding-right: 45px;
   padding-left: 45px;
 }
@@ -255,7 +255,7 @@
 }
 
 .index-form {
-  padding-top: 55px;
+  padding-top: 52px;
   display: grid;
   text-align: center;
   position: relative;
@@ -269,10 +269,7 @@
   top: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 53px;
-  padding-right: 57px;
-  padding-top: 53px;
-  padding-bottom: 57px;
+  padding: 55px;
   background-color: var(--basic-white);
   width: 458px;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
@@ -298,7 +295,7 @@
   text-transform: uppercase;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 12px;
+  padding-left: 10px;
 
 }
 
@@ -379,7 +376,7 @@
   outline: none;
   border: 2px solid var(--basic-grey);
   background-color: var(--basic-grey);
-  width: 36px;
+  width: 37px;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
@@ -794,8 +791,8 @@
   line-height: 26px;
   font-weight: bold;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 36px;
+  padding-top: 12px;
+  padding-bottom: 33px;
   padding-left: 110px;
   min-width: 251px;
 }
@@ -941,6 +938,7 @@ justify-content: space-between;
   padding-top: 32px;
   padding-bottom: 36px;
   margin-left: 8px;
+  width: 500px;
 }
 
 
@@ -1001,16 +999,16 @@ justify-content: space-between;
   display: flex;
   justify-content: center;
   padding-right: 140px;
-  padding-top: 43px;
+  padding-top: 39px;
 }
 
 .social-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 32px;
-  padding-right: 27px;
+  padding-top: 36px;
+  padding-bottom: 30px;
+  padding-right: 31px;
 }
 
 .background-index {
