@@ -586,7 +586,6 @@
  .range-controls .bar {
    background-color: var(--basic-white);
    height: 2px;
-   width: 85%;
  }
 
  .range-controls .toggle {
@@ -601,10 +600,6 @@
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 var(--filter-button);
   cursor: pointer;
- }
-
-.range-controls .toggle-max {
-   left: 250px;
  }
 
 .flex-from-to p {

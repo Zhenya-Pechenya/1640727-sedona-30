@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/32.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/icons/180.png">
@@ -58,7 +58,7 @@
               <li class="checkbox">     
                 <input class="input-checkbox visually-hidden" id="check_6" type="checkbox" checked>
                 <label for="check_6">Апартаменты</label>
-              </li>              
+              </li>        
             </ul>
           </fieldset> 
           <fieldset class="fieldset fieldset-from-to">
@@ -74,11 +74,11 @@
                   </label>  
                 </div>
                 <div class="range-controls">
-                  <div class="scale"> <!--вся ширина бегунка-->
-                    <div class="bar"></div> <!--выбранный диапазон-->
+                  <div class="scale">
+                    <div class="bar" style="width:85%; left:0%;"></div>
                   </div>
-                  <div class="toggle toggle-min"></div>
-                  <div class="toggle toggle-max"></div>
+                  <div class="toggle toggle-min" tabindex="0" style="left:0%;"></div>
+                  <div class="toggle toggle-max" tabindex="0" style="left:80%;"></div>
                 </div>
               </div>                 
             <p><a class="button-show" href="https://echo.htmlacademy.ru/">Показать</a></p>  
@@ -125,7 +125,7 @@
             <div class="rating">
               <div class="stars stars-4">
               </div>
-              <p class="rating-title">Рейтинг 8,5</p>
+              <p class="rating-title">Рейтинг: 8,5</p>
             </div>         
           </li>
           <li class="hotel-item">         
@@ -148,7 +148,7 @@
             <div class="rating">
               <div class="stars stars-3">
               </div>
-              <p class="rating-title">Рейтинг 8,9</p>
+              <p class="rating-title">Рейтинг: 8,9</p>
             </div>          
           </li>
           <li class="hotel-item">
@@ -171,7 +171,7 @@
             <div class="rating">
               <div class="stars stars-2">
               </div>
-              <p class="rating-title">Рейтинг 9,2</p>
+              <p class="rating-title">Рейтинг: 9,2</p>
             </div>
           </li>
         </ul>
@@ -179,7 +179,7 @@
     </main>
     <footer class="footer">
       <div class="contacts">
-        <b>#VISITSEDONA</b>
+        <p>#VISITSEDONA</p>
         <p><a href="tel:+74956660166"> Тел: +7(495) 666-01-66 </a></p>
       </div>
       <div class="social-icons">
