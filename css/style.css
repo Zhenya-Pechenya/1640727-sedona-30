@@ -53,12 +53,12 @@
   font-weight: bold;
 }
 
-.nav-item:hover {
+.nav-item:hover, .nav-item:focus {
   color: var(--basic-blue);
 }
 
 
-.nav-item:focus {
+.nav-item:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -225,12 +225,12 @@
   text-decoration: none;
 }
 
-.hotel-search-button:hover {
+.hotel-search-button:hover, .hotel-search-button:focus {
   background-color: var(--hover-brown);
 }
 
 
-.hotel-search-button:focus {
+.hotel-search-button:active {
   background-color: var(--focus-brown);
   color: rgba(255, 255, 255, 0.3);
 
@@ -313,11 +313,11 @@
   background: none;
 }
 
-.date button:hover path {
+.date button:hover path, .date button:focus path {
   fill: var(--basic-black);
 }
 
-.date button:focus path{
+.date button:active path{
   fill: var(--basic-blue);
 }
 
@@ -394,11 +394,12 @@
 .number-people svg {
   fill: var(--icon-calendar);
 }
-.number-people:hover svg {
+
+.number-people:hover svg, .number-people:focus svg {
   fill: var(--basic-black);
 }
 
-.number-people:focus svg {
+.number-people:active svg {
   fill: var(--basic-blue);
 }
 
@@ -435,11 +436,11 @@
 }
 
 
-.button-form:hover {
+.button-form:hover, .button-form:focus {
   background-color: var(--hover-blue);
 }
 
-.button-form:focus {
+.button-form:active {
   outline: none;
   background-color: var(--focus-blue);
   color: rgba(255, 255, 255, 0.3);
@@ -492,22 +493,22 @@
   border-bottom: 1px dotted var(--basic-blue);
  }
 
-.sorting-item:hover {
+.sorting-item:hover, .sorting-item:focus {
   color: var(--basic-blue);
   border-bottom: 1px dotted var(--basic-blue);
  }
 
-.sorting-item:focus {
+.sorting-item:active {
   color: var(--basic-black);
   border-bottom: none;
  }
 
- .sorting-item-current {
+.sorting-item-current {
    color: var(--basic-blue);
    border-bottom: none;
  }
 
- .sorting-item-current:hover {
+.sorting-item-current:hover {
    border-bottom: none;
  }
 
@@ -552,7 +553,13 @@
    background: none;
    border: none;
    color: var(--basic-white);
+   -webkit-appearance: textfield;
  }
+
+ .price-min input::-webkit-outer-spin-button,
+.price-min input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
 
  .price-min::after {
    content: ""; 
@@ -571,6 +578,12 @@
   background: none;
   border: none;
   color: var(--basic-white);
+  -webkit-appearance: textfield;
+ }
+
+ .price-max input::-webkit-outer-spin-button,
+ .price-max input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
  }
 
  .range-controls .scale {
@@ -602,7 +615,13 @@
   cursor: pointer;
  }
 
-.flex-from-to p {
+
+.button-show {
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  font: inherit;
+  background: none;
   width: 133px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -628,11 +647,11 @@
   background-color: var(--basic-brown);
  }
 
-.button-reservation:hover {
+.button-reservation:hover, .button-reservation:focus {
   background-color: var(--hover-brown);
  }
 
-.n-reservation:focus {
+.button-reservation:active {
   background-color: var(--focus-brown);
   color: rgba(255, 255, 255, 0.3); 
  }
@@ -641,11 +660,11 @@
   background-color: var(--basic-blue);
  }
 
-.button-details:hover {
+.button-details:hover, .button-details:focus {
   background-color: var(--hover-blue);
  }
 
-.button-details:focus {
+.button-details:active {
   background-color: var(--focus-blue);
   color: rgba(255, 255, 255, 0.3); 
  }
@@ -668,12 +687,12 @@
 
  }
 
-.hotel-names-link:hover {
+.hotel-names-link:hover, .hotel-names-link:focus {
   color: var(--basic-blue);
 
  }
 
-.hotel-names-link:focus {
+.hotel-names-link:active {
   color: rgba(0, 0, 0, 0.3);
  }
 
@@ -760,15 +779,15 @@
   justify-content: center;
 }
 
-.social-link:hover {
+.social-link:hover, .social-link:focus {
   background-color: var(--hover-blue);
 }
 
-.social-link:focus path {
+.social-link:active path {
   fill: rgba(255, 255, 255, 0.3);
 }
 
-.social-link:focus {
+.social-link:active {
   background-color: var(--focus-blue);
 }
 
@@ -804,11 +823,15 @@
   white-space: nowrap;
 }
 
-.footer-logo:hover path{
+.website {
+  align-items: flex-start;
+}
+
+.footer-logo:hover path, .footer-logo:focus path{
   fill: var(--basic-blue);
 }
 
-.footer-logo:focus path{
+.footer-logo:active path{
   fill: var(--icon-website);
 }
 
@@ -915,11 +938,11 @@ justify-content: space-between;
   top: 8px;
 }
 
-.arrows:hover path {
+.arrows:hover, .arrows:focus path {
   fill: var(--basic-black);
 }
 
-.arrows:focus path {
+.arrows:active path {
   fill: var(--basic-blue);
 }
 
