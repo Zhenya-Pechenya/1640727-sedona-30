@@ -601,7 +601,7 @@
    height: 2px;
  }
 
- .range-controls .toggle {
+ .toggle {
   position: absolute;
   top: -10px;
   left: 0;
@@ -611,8 +611,14 @@
   border: 8px solid var(--basic-white);
   background-color: var(--filter-button);
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 var(--filter-button);
+  box-shadow: 0 2px 0 0 rgba(171, 171, 171, 0.3);
   cursor: pointer;
+ }
+
+ .toggle:hover, .toggle:focus {
+   width: 5px;
+   height: 5px;
+   border: 9px solid var(--basic-white);
  }
 
 
@@ -631,6 +637,11 @@
   margin-left: 85px;
   margin-top: 33px;
   
+}
+
+.button-show:hover, .button-show:focus {
+  background: var(--basic-white);
+  color: var(--basic-black);
 }
 
 .button-reservation-details {
@@ -736,11 +747,24 @@
   left: -39px;
 }
 
-.input-checkbox:checked + label::after {
+.input-checkbox:checked + label::before {
   content: url(../img/catalog/checkbox-on.svg);
   position: absolute;
   left: -39px;
 }
+
+.input-checkbox:disabled + label::before {
+  content: url(../img/catalog/checkbox-off-block.svg);
+  position: absolute;
+  left: -39px;
+}
+
+.input-checkbox:checked:disabled + label::before {
+  content: url(../img/catalog/checkbox-on-block.svg);
+  position: absolute;
+  left: -39px;
+}
+
 
 .visually-hidden {
   position: absolute;
