@@ -508,8 +508,8 @@
 }
 
 
-.flex-from-to .legend {
-  padding: 0;
+.fieldset-from-to .legend {
+  padding-left: 231px;
   margin: 0;
   margin-bottom: 11px;
 }
@@ -854,6 +854,8 @@
 }
 
 .advantages-gray-wrapper {
+  list-style: none;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(3,1fr);  
 }
