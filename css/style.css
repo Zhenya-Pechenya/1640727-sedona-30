@@ -50,7 +50,7 @@
   font-weight: bold;
 }
 
-.nav-item:hover, .nav-item:focus {
+.nav-item[href]:hover, .nav-item[href]:focus {
   color: var(--basic-blue);
 }
 
@@ -59,10 +59,6 @@
 }
 
 .nav-item-current {
-  color: var(--basic-brown);
-}
-
-.nav-item-current:hover {
   color: var(--basic-brown);
 }
 
@@ -739,6 +735,9 @@
   left: -39px;
 }
 
+.input-checkbox:focus + label {
+  outline: 1px solid var(--basic-blue);
+}
 
 .visually-hidden {
   position: absolute;
