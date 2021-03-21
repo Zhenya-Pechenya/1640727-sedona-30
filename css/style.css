@@ -1,7 +1,5 @@
 /*Fonts*/
 
-
-
 /*Variables*/
 :root {
   --basic-black: #000000;
@@ -50,7 +48,8 @@
   font-weight: bold;
 }
 
-.nav-item[href]:hover, .nav-item[href]:focus {
+.nav-item[href]:hover, 
+.nav-item[href]:focus {
   color: var(--basic-blue);
 }
 
@@ -82,7 +81,8 @@
   background: url("../img/index/white-wrap.svg");
 }
 
-.title-primary, .found {
+.title-primary, 
+.found {
   text-decoration: none;
   font-size: 21px;
   line-height: 26px;
@@ -122,7 +122,7 @@
   padding-left: 45px;
 }
 
-.feature-item .feature-title{
+.feature-item .feature-title {
   margin: 0;
   margin-bottom: 25px;
 }
@@ -154,7 +154,6 @@
   background-image: url("../img/index/icon-2.svg");
   background-position: 50% 22%;
   background-repeat: no-repeat;
-
 }
 
 .feature-item-gift {
@@ -180,13 +179,13 @@
   padding-left: 48px;
 }
 
-.advantages-item-picture-title h3{
+.advantages-item-picture-title h3 {
   margin: 0;
   margin-bottom: 27px;
   font-size: 21px
 }
 
-.advantages-item-picture-title span{
+.advantages-item-picture-title span {
   margin: 0;
   margin-bottom: 25px;
 }
@@ -210,7 +209,8 @@
   text-decoration: none;
 }
 
-.hotel-search-button:hover, .hotel-search-button:focus {
+.hotel-search-button:hover, 
+.hotel-search-button:focus {
   background-color: var(--hover-brown);
 }
 
@@ -292,11 +292,12 @@
   background: none;
 }
 
-.date button:hover path, .date button:focus path {
+.date button:hover path, 
+.date button:focus path {
   fill: var(--basic-black);
 }
 
-.date button:active path{
+.date button:active path {
   fill: var(--basic-blue);
 }
 
@@ -373,7 +374,8 @@
   fill: var(--icon-calendar);
 }
 
-.number-people:hover svg, .number-people:focus svg {
+.number-people:hover svg, 
+.number-people:focus svg {
   fill: var(--basic-black);
 }
 
@@ -411,8 +413,8 @@
   padding-left: 196px;
 }
 
-
-.button-form:hover, .button-form:focus {
+.button-form:hover, 
+.button-form:focus {
   background-color: var(--hover-blue);
 }
 
@@ -425,7 +427,6 @@
 .map img {
   display: block;
 }
-
 
 /*Main-catalog*/
 
@@ -443,8 +444,8 @@
   display: flex;
   color: var(--basic-white);
   padding-top: 26px;
-
 }
+
 .found {
   font-size: 21px;
   line-height: 26px;
@@ -469,7 +470,8 @@
   border-bottom: 1px dotted var(--basic-blue);
 }
 
-.sorting-item:hover, .sorting-item:focus {
+.sorting-item:hover, 
+.sorting-item:focus {
   color: var(--basic-blue);
   border-bottom: 1px dotted var(--basic-blue);
 }
@@ -503,7 +505,6 @@
   width: 318px;
 }
 
-
 .fieldset-from-to .legend {
   padding-left: 231px;
   margin: 0;
@@ -522,7 +523,7 @@
   position: relative;
 }
 
-.price-min input{
+.price-min input {
   width: 50px;
   background: none;
   border: none;
@@ -547,7 +548,7 @@
   border-radius: 2px;
 }
 
-.price-max input{
+.price-max input {
   width: 50px;
   background: none;
   border: none;
@@ -589,12 +590,12 @@
   cursor: pointer;
 }
 
-.toggle:hover, .toggle:focus {
+.toggle:hover, 
+.toggle:focus {
   width: 5px;
   height: 5px;
   border: 9px solid var(--basic-white);
 }
-
 
 .button-show {
   display: inline-block;
@@ -612,7 +613,8 @@
   margin-top: 33px; 
 }
 
-.button-show:hover, .button-show:focus {
+.button-show:hover, 
+.button-show:focus {
   background: var(--basic-white);
   color: var(--basic-black);
 }
@@ -631,7 +633,8 @@
   background-color: var(--basic-brown);
 }
 
-.button-reservation:hover, .button-reservation:focus {
+.button-reservation:hover, 
+.button-reservation:focus {
   background-color: var(--hover-brown);
 }
 
@@ -644,7 +647,8 @@
   background-color: var(--basic-blue);
 }
 
-.button-details:hover, .button-details:focus {
+.button-details:hover, 
+.button-details:focus {
   background-color: var(--hover-blue);
 }
 
@@ -669,7 +673,8 @@
   margin: 0;
 }
 
-.hotel-names-link:hover, .hotel-names-link:focus {
+.hotel-names-link:hover, 
+.hotel-names-link:focus {
   color: var(--basic-blue);
 }
 
@@ -752,7 +757,6 @@
 
 /*Footer*/
 
-
 .footer {
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -774,7 +778,8 @@
   justify-content: center;
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover, 
+.social-link:focus {
   background-color: var(--hover-blue);
 }
 
@@ -802,7 +807,6 @@
   min-width: 251px;
 }
 
-
 .contacts a {
   text-decoration: none;
   color: var(--basic-black);
@@ -822,7 +826,8 @@
   align-items: flex-start;
 }
 
-.footer-logo:hover path, .footer-logo:focus path {
+.footer-logo:hover path, 
+.footer-logo:focus path {
   fill: var(--basic-blue);
 }
 
@@ -894,7 +899,6 @@
   padding-left: 42px;
 }
 
-
 .checkbox-form {
   display: grid;
   padding-left: 69px;
@@ -929,7 +933,8 @@
   top: 8px;
 }
 
-.arrows:hover, .arrows:focus path {
+.arrows:hover, 
+.arrows:focus path {
   fill: var(--basic-black);
 }
 
@@ -994,7 +999,6 @@
   margin-top: 7px;
   margin-bottom: 19px;
 }
-
 
 .website {
   display: flex;
